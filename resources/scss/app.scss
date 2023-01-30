@@ -39,11 +39,15 @@ li {
 
 // Footer Styling
 #footer {
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('/resources/img/footer-bg.jpg');
 
     ul{
         padding: 0;
     }
+
+
 }
 
 .selected {
@@ -64,4 +68,19 @@ div.hero-jumbo{
     }
 
     --bs-gutter-x: 0;
+
+    .ms_features{
+      
+    img{
+        width: 25%;
+         }
+    }
+
+    .ms_title{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: -40px;
+    }
 }
+
