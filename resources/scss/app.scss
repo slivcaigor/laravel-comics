@@ -1,1 +1,67 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+// Header Styling
+.ms_top-nav{
+    height: 25px;
+    background-color: #0282F9;
+}
+
+#header {
+    margin: 0 auto;
+    width: 70%;
+    
+    .ms_logo{
+        img{
+            width: 100%;
+        }
+    }
+
+    li {
+
+        padding: 20px 10px;
+        margin: 0;
+    }
+}
+
+// Footer Styling
+#footer {
+    background-image: url('/resources/img/footer-bg.jpg');
+
+    ul{
+        padding: 0;
+    }
+}
+
+.selected {
+    border-bottom: 4px solid #0282F9;
+}
+
+// Main Styling
+div.hero-jumbo{
+    background-image: url('/resources/img/jumbotron.jpg');
+    height: 500px;
+}
+
+.ms_main-area{
+    background-color: #1C1C1C;
+
+    a{
+        text-decoration: none;
+    }
+
+    --bs-gutter-x: 0;
+}
